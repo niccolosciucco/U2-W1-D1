@@ -275,3 +275,19 @@ footer a {
     width: 33%;
   }
 }
+
+@media print {
+  header {
+    display: none;
+  }
+
+  #badge-par {
+    display: inline-block;
+  }
+
+  #article-video-form,
+  aside,
+  footer {
+    display: none;
+  }
+}
